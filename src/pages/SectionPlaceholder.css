@@ -1,0 +1,47 @@
+
+.placeholder-page {
+  min-height: 420px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  border: 1px solid #26364b;
+  border-radius: 13px;
+  background: #0e1a2b;
+}
+
+.placeholder-icon {
+  display: grid;
+  place-items: center;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 25px;
+  border: 1px solid #155e75;
+  border-radius: 13px;
+  color: #67e8f9;
+  background: #102b3c;
+}
+
+.placeholder-page h2 {
+  margin-top: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 26px;
+}
+
+.placeholder-page p {
+  max-width: 440px;
+  margin-top: 10px;
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.placeholder-link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 25px;
+  color: #67e8f9;
+  font-size: 12px;
+}
